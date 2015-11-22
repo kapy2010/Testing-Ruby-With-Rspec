@@ -1,9 +1,10 @@
 require 'blog'
+require 'post'
 
 describe "Callbacks" do
   let(:blog) { Blog.new }
 
-  before(:example) do
+  before(:each) do |example|
     blog.populate!
   end
 

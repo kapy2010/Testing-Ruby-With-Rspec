@@ -72,4 +72,8 @@ describe "Matchers" do
   it "negates asserts" do
     expect(3).not_to be 5
   end
+
+  it "is my very important test right now" do
+    expect(true).to be_truthy
+  end
 end

@@ -11,8 +11,8 @@ describe "Composable Matchers" do
       def serial_data
         [
           "X-",
-          @name[0],
-          @category[0],
+          @name,
+          @category,
           @id
         ]
       end
